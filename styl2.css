@@ -1,0 +1,69 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+#baner {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.gorny:nth-child(1), .gorny:nth-child(2) {
+    background-color: #A26475;
+    color: white;
+    width: 30%;
+    height: 300px;
+}
+
+.gorny:nth-child(3) {
+    background-color: #A26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+}
+
+#glowny {
+    background-color: #F0EAE2;
+    padding: 50px;
+}
+
+#stopka {
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+table, th, td {
+    border: 2px solid #69293A;
+    padding: 7px;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#kolor1, #kolor2, #kolor3 {
+    width: 16px;
+    height: 16px;
+}
+
+#kolor1 {
+    background-color: red;
+}
+
+#kolor2 {
+    background-color: green;
+}
+
+#kolor3 {
+    background-color: blue;
+}
+
+#wrapper {
+    display: flex;
+}
